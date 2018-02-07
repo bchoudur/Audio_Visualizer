@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+#circle{
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 25%;
+	left: 0;
+	right: 0;
+	background-color: #ECECEC;
+}
+*/
+
+#mp3_player{
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 20%;
+	left: 0;
+	right: 0;
+	width: 600px;
+	height: 630px;
+	background-color: #2D2D2D;
+	padding: 5px;
+}
+
+#mp3_player > div > audio{
+	width: 500px;
+	background-color: #CD2F31;
+	float:left;
+}
+
+#mp3_player > canvas {
+	background-color: #E1E1E1;
+	float: left;
+}
